@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description"
+        content="keyvani admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, keyvani admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content=" ">
+    <title>صفحه ی اصلی</title>
+    <link rel="apple-touch-icon" href="./app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="behkar_ico256.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
+
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/vendors-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/forms/select/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/forms/wizard/bs-stepper.min.css">
+
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/colors.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/components.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/plugins/forms/form-validation.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/plugins/forms/form-wizard.min.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="./app-assets/css-rtl/custom-rtl.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style-rtl.css">
+    <!-- END: Custom CSS-->
+
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-sweet-alerts.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleme.css">
+    <!-- Template files -->
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header-->
+    <nav
+        class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow container-xxl">
+        <div class="navbar-container d-flex content">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle" href="#"><i class="ficon"
+                                data-feather="menu"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav bookmark-icons">
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="پست الکترونیک"><i class="ficon"
+                                data-feather="mail"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="پیام"><i class="ficon"
+                                data-feather="message-square"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="تقویم"><i class="ficon"
+                                data-feather="calendar"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="نکات"><i class="ficon"
+                                data-feather="check-square"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i
+                                class="ficon text-warning" data-feather="star"></i></a>
+                        <div class="bookmark-input search-input">
+                            <div class="bookmark-input-icon"><i data-feather="search"></i></div>
+                            <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0"
+                                data-search="search">
+                            <ul class="search-list search-list-bookmark"></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav align-items-center ms-auto">
+                <li class="nav-item dropdown dropdown-language"><a class="nav-link dropdown-toggle" id="dropdown-flag"
+                        href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                            class="flag-icon flag-icon-ir"></i><span class="selected-language">فارسی</span></a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-flag"><a
+                            class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us"></i>
+                            English</a><a class="dropdown-item" href="#" data-language="fr"><i
+                                class="flag-icon flag-icon-ir"></i> فارسی</a>
+
+                </li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon"
+                            data-feather="moon"></i></a></li>
+
+
+                <li class="nav-item dropdown dropdown-notification me-25"><a class="nav-link" href="#"
+                        data-bs-toggle="dropdown"><i class="ficon" data-feather="bell"></i><span
+                            class="badge rounded-pill bg-danger badge-up">5</span></a>
+                    <ul class="dropdown-menu dropdown-menu-media dropdown-menu-end">
+                        <li class="dropdown-menu-header">
+                            <div class="dropdown-header d-flex">
+                                <h4 class="notification-title mb-0 me-auto">نوتیفیکیشن ها</h4>
+                                <div class="badge rounded-pill badge-light-primary">6 جدید</div>
+                            </div>
+                        </li>
+                        <li class="scrollable-container media-list"><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar"><img
+                                                src="./app-assets/images/portrait/small/avatar-s-15.jpg" alt="avatar"
+                                                width="32" height="32"></div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder">محتویات
+                                                نوتیفیکیشن🎉</span>سلام!</p><small class="notification-text"></small>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="list-item d-flex align-items-center">
+                                <h6 class="fw-bolder me-auto mb-0">سیستم نوتیفیکیشن</h6>
+                                <div class="form-check form-check-primary form-switch">
+                                    <input class="form-check-input" id="systemNotification" type="checkbox" checked="">
+                                    <label class="form-check-label" for="systemNotification"></label>
+                                </div>
+                            </div><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar bg-light-danger">
+                                            <div class="avatar-content"><i class="avatar-icon" data-feather="x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder">
+                                                </span>&nbsp;</p><small class="notification-text">
+                                            </small>
+                                    </div>
+                                </div>
+                            </a><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar bg-light-success">
+                                            <div class="avatar-content"><i class="avatar-icon" data-feather="check"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder">
+                                                </span>&nbsp;</p><small class="notification-text">
+                                            </small>
+                                    </div>
+                                </div>
+                            </a><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar bg-light-warning">
+                                            <div class="avatar-content"><i class="avatar-icon"
+                                                    data-feather="alert-triangle"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder"></span>&nbsp;
+                                        </p><small class="notification-text"></small>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu-footer"><a class="btn btn-blue w-100" href="#">خواندن تمامی
+                                نوتیفیکیشن ها</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link"
+                        id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder">غزاله
+                                کیوانی</span><span class="user-status">کارمند</span></div><span class="avatar"><img
+                                class="round" src="./app-assets/images/portrait/small/avatar-s-11.jpg" alt="avatar"
+                                height="40" width="40"><span class="avatar-status-online"></span></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user"><a
+                            class="dropdown-item" href="page-profile.html"><i class="me-50" data-feather="user"></i>
+                            پروفایل</a><a class="dropdown-item" href="app-email.html"><i class="me-50"
+                                data-feather="mail"></i> صندوق ورودی</a><a class="dropdown-item" href="app-todo.html"><i
+                                class="me-50" data-feather="check-square"></i> وظایف</a><a class="dropdown-item"
+                            href="app-chat.html"><i class="me-50" data-feather="message-square"></i> پیام ها</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item"
+                            href="page-account-settings-account.html"><i class="me-50" data-feather="settings"></i>
+                            تنظیمات</a><a class="dropdown-item" href="page-pricing.html"><i class="me-50"
+                                data-feather="credit-card"></i> پرداخت</a><a class="dropdown-item"
+                            href="page-faq.html"><i class="me-50" data-feather="help-circle"></i> پرسش های متداول</a><a
+                            class="dropdown-item" href="login.html"><i class="me-50"
+                                data-feather="power"></i> خروج</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="main-search-list-defaultlist d-none">
+        <li class="d-flex align-items-center"><a href="#">
+                <h6 class="section-label mt-75 mb-0">Files</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/xls.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing
+                            Manager</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;17kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/jpg.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd
+                            Developer</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;11kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/pdf.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital
+                            Marketing Manager</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;150kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/doc.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web
+                            Designer</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;256kb</small>
+            </a></li>
+        <li class="d-flex align-items-center"><a href="#">
+                <h6 class="section-label mt-75 mb-0">Members</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-8.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">John Doe</p><small class="text-muted">UI designer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-11.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd
+                            Developer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-14.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing
+                            Manager</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-6.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
+                    </div>
+                </div>
+            </a></li>
+    </ul>
+    <ul class="main-search-list-defaultlist-other-list d-none">
+        <li class="auto-suggestion justify-content-between"><a
+                class="d-flex align-items-center justify-content-between w-100 py-50">
+                <div class="d-flex justify-content-start"><span class="me-75"
+                        data-feather="alert-circle"></span><span>No results found.</span></div>
+            </a></li>
+    </ul>
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item me-auto">
+                    <a class="navbar-brand" href="#"><span
+                            class="brand-logo"><img src="./behkar_ico256.png" alt="behkar_ico"></span>
+                        <h2 class="brand-text" style="color: #26b2ab;">شتاب ساز</h2>
+                    </a>
+                </li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i
+                            class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i
+                            data-feather="home"></i><span class="menu-title text-truncate" data-i18n="home">صفحه ی
+                            اصلی</span>
+
+                </li>
+                <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">برنامه ها و صفحات</span><i
+                        data-feather="more-horizontal"></i>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-chat.html"><i
+                            data-feather="message-square"></i><span class="menu-title text-truncate"
+                            data-i18n="Chat">پیام ها</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-todo.html"><i
+                            data-feather="check-square"></i><span class="menu-title text-truncate"
+                            data-i18n="Todo">نکات</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="new-report-work.html"><i
+                            data-feather="save"></i><span class="menu-title text-truncate" data-i18n="new-report-work">ثبت
+                            گزارش کار</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="datatable.html"><i
+                            data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="datatable">لیست گزارش
+                            کار</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i
+                            data-feather="file-text"></i><span class="menu-title text-truncate"
+                            data-i18n="contracts">قرار دادها</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-file-manager.html"><i
+                            data-feather="book"></i><span class="menu-title text-truncate"
+                            data-i18n="File Manager">دفترچه تلفن</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="shield"></i><span
+                            class="menu-title text-truncate" data-i18n="Cardboard">کارتابل ها</span></a>
+                    <ul class="menu-content">
+                        <li><a class="d-flex align-items-center" href="datatable.html"><i
+                                    data-feather="circle"></i><span class="menu-item text-truncate"
+                                    data-i18n="Input card">کارتابل ورودی</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="datatable.html"><i
+                                    data-feather="circle"></i><span class="menu-item text-truncate"
+                                    data-i18n="Output card">کارتابل خروجی</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="user"></i><span
+                            class="menu-title text-truncate" data-i18n="User info">اطلاعات کاربری</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="info"></i><span
+                            class="menu-title text-truncate" data-i18n="Pages">درباره ی سایت</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="inbox"></i><span
+                            class="menu-title text-truncate" data-i18n="Authentication">میز کار</span></a>
+
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="row">
+            <!--enter&exit-->
+
+            <div class="card col-sm-6 border" style="border-top-left-radius: 0rem ;border-bottom-left-radius: 0rem;">
+
+                <button class="vq card-header my-auto btn waves-effect" onclick="showVorodModal()" id="type-success">
+                    <a class="h4dashboard">
+                        <!-- <h2 class="fw-bolder mb-0">ورود</h2> -->
+                         <h2 class="mb-0">ورود</h2>
+                        <p class="card-text"> 08:00 </p>
+                    </a>
+                    <a class="avatar avatar-xl bg-light-success p-50">
+                        <div class="avatar-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-log-in">
+                                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                                <polyline points="10 17 15 12 10 7"></polyline>
+                                <line x1="15" y1="12" x2="3" y2="12"></line>
+                            </svg>
+                        </div>
+                    </a>
+                </button>
+
+
+                <div class="vq btn waves-effect card-header my-auto" data-bs-toggle="modal" data-bs-target="#inlineForm">
+                    <a class="h4dashboard">
+                        <!-- <h2 class="fw-bolder mb-0">خروج</h2> -->
+                        <h2 class="mb-0">خروج</h2>
+                        <p class="card-text"> 04:00 </p>
+                    </a>
+                    <a class="avatar avatar-xl bg-light-danger p-50">
+                        <div class="avatar-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-log-out">
+                                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                <polyline points="16 17 21 12 16 7"></polyline>
+                                <line x1="21" y1="12" x2="9" y2="12"></line>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="row border-top text-center mx-0">
+                    <div class="d-grid col-lg-6 col-md-12 mt-2 mb-1 mx-auto">
+                        <a type="button" class="btn btn-blue waves-effect waves-float my-auto waves-light"
+                            href="datatable.html">لیست
+                            ورود و خروج</a>
+                    </div>
+                </div>
+            </div>
+            <!--/enter&exit-->
+            <!-- Goal Overview Card -->
+
+            <div class="card col-sm-6 border" style="border-radius: 0rem ; box-shadow:0 0px 0px 0;">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h4 class="card-title">نمودار هدف و عملکرد</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-help-circle font-medium-3 text-muted cursor-pointer">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                </div>
+
+
+                <div class="resize-triggers">
+                    <div class="expand-trigger">
+                        <div id="apexchartsz4qx677f" class="apexcharts-canvas apexchartsz4qx677f apexcharts-theme-light"
+                            style="width: 501px; height: 205.633px;"><svg id="SvgjsSvg1006" width="501"
+                                height="205.63333333333335" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)"
+                                style="background: transparent;">
+                                <g id="SvgjsG1008" class="apexcharts-inner apexcharts-graphical"
+                                    transform="translate(128, -10)">
+                                    <defs id="SvgjsDefs1007">
+                                        <linearGradient id="SvgjsLinearGradient1016" x1="0" y1="1" x2="1" y2="1">
+                                            <stop id="SvgjsStop1017" stop-opacity="1" stop-color="rgba(40,199,111,1)"
+                                                offset="0"></stop>
+                                            <stop id="SvgjsStop1018" stop-opacity="1" stop-color="rgba(235,233,241,1)"
+                                                offset="1"></stop>
+                                            <stop id="SvgjsStop1019" stop-opacity="1" stop-color="rgba(235,233,241,1)"
+                                                offset="1"></stop>
+                                        </linearGradient>
+                                        <linearGradient id="SvgjsLinearGradient1026" x1="0" y1="1" x2="1" y2="1">
+                                            <stop id="SvgjsStop1027" stop-opacity="1" stop-color="rgba(40,199,111,1)"
+                                                offset="0"></stop>
+                                            <stop id="SvgjsStop1028" stop-opacity="1" stop-color="rgba(81,229,168,1)"
+                                                offset="1"></stop>
+                                            <stop id="SvgjsStop1029" stop-opacity="1" stop-color="rgba(81,229,168,1)"
+                                                offset="1"></stop>
+                                        </linearGradient>
+                                        <filter id="SvgjsFilter1158" filterUnits="userSpaceOnUse" width="200%"
+                                            height="200%" x="-50%" y="-50%">
+                                            <feFlood id="SvgjsFeFlood1159" flood-color="#000000" flood-opacity="0.1"
+                                                result="SvgjsFeFlood1159Out" in="SourceGraphic"></feFlood>
+                                            <feComposite id="SvgjsFeComposite1160" in="SvgjsFeFlood1159Out"
+                                                in2="SourceAlpha" operator="in" result="SvgjsFeComposite1160Out">
+                                            </feComposite>
+                                            <feOffset id="SvgjsFeOffset1161" dx="1" dy="1" result="SvgjsFeOffset1161Out"
+                                                in="SvgjsFeComposite1160Out"></feOffset>
+                                            <feGaussianBlur id="SvgjsFeGaussianBlur1162" stdDeviation="3 "
+                                                result="SvgjsFeGaussianBlur1162Out" in="SvgjsFeOffset1161Out">
+                                            </feGaussianBlur>
+                                            <feMerge id="SvgjsFeMerge1163" result="SvgjsFeMerge1163Out"
+                                                in="SourceGraphic">
+                                                <feMergeNode id="SvgjsFeMergeNode1164" in="SvgjsFeGaussianBlur1162Out">
+                                                </feMergeNode>
+                                                <feMergeNode id="SvgjsFeMergeNode1165" in="[object Arguments]">
+                                                </feMergeNode>
+                                            </feMerge>
+                                            <feBlend id="SvgjsFeBlend1166" in="SourceGraphic" in2="SvgjsFeMerge1163Out"
+                                                mode="normal" result="SvgjsFeBlend1166Out"></feBlend>
+                                        </filter>
+                                    </defs>
+                                    <g id="SvgjsG1012" class="apexcharts-radialbar">
+                                        <g id="SvgjsG1013">
+                                            <g id="SvgjsG1014" class="apexcharts-tracks">
+                                                <g id="SvgjsG1015" class="apexcharts-radialbar-track apexcharts-track"
+                                                    rel="1">
+                                                    <path id="apexcharts-radialbarTrack-0"
+                                                        d="M 77.85670731707313 184.82445114399718 A 89.28658536585367 89.28658536585367 0 1 1 167.14329268292684 184.82445114399718"
+                                                        fill="none" fill-opacity="1" stroke="rgba(235,233,241,0.85)"
+                                                        stroke-opacity="1" stroke-linecap="round"
+                                                        stroke-width="3.5304878048780495" stroke-dasharray="0"
+                                                        class="apexcharts-radialbar-area"
+                                                        data:pathOrig="M 77.85670731707313 184.82445114399718 A 89.28658536585367 89.28658536585367 0 1 1 167.14329268292684 184.82445114399718">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                            <g id="SvgjsG1021">
+                                                <g id="SvgjsG1025" class="apexcharts-series apexcharts-radial-series"
+                                                    seriesName="seriesx1" rel="1" data:realIndex="0">
+                                                    <path id="SvgjsPath1030"
+                                                        d="M 77.85670731707313 184.82445114399718 A 89.28658536585367 89.28658536585367 0 1 1 210.6873193374061 121.46749921697622"
+                                                        fill="none" fill-opacity="0.85"
+                                                        stroke="url(#SvgjsLinearGradient1026)" stroke-opacity="1"
+                                                        stroke-linecap="round" stroke-width="7.060975609756099"
+                                                        stroke-dasharray="0"
+                                                        class="apexcharts-radialbar-area apexcharts-radialbar-slice-0"
+                                                        data:angle="249" data:value="83" index="0" j="0"
+                                                        data:pathOrig="M 77.85670731707313 184.82445114399718 A 89.28658536585367 89.28658536585367 0 1 1 210.6873193374061 121.46749921697622"
+                                                        filter="url(#SvgjsFilter1158)"></path>
+                                                </g>
+                                                <circle id="SvgjsCircle1022" r="82.52134146341464" cx="122.5" cy="107.5"
+                                                    class="apexcharts-radialbar-hollow" fill="transparent"></circle>
+                                                <g id="SvgjsG1023" class="apexcharts-datalabels-group"
+                                                    transform="translate(0, 0) scale(1)" style="opacity: 1;"><text
+                                                        id="SvgjsText1024" font-family="Helvetica, Arial, sans-serif"
+                                                        x="122.5" y="123.5" text-anchor="middle"
+                                                        dominant-baseline="auto" font-size="2.86rem" font-weight="600"
+                                                        fill="#5e5873"
+                                                        class="apexcharts-text apexcharts-datalabel-value"
+                                                        style="font-family: IRANSansNum;">83%</text>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <line id="SvgjsLine1040" x1="0" y1="0" x2="245" y2="0" stroke="#b6b6b6"
+                                        stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line>
+                                    <line id="SvgjsLine1041" x1="0" y1="0" x2="245" y2="0" stroke-dasharray="0"
+                                        stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line>
+                                </g>
+                                <g id="SvgjsG1009" class="apexcharts-annotations"></g>
+                            </svg>
+                            <div class="apexcharts-legend"></div>
+                        </div>
+                    </div>
+                    <div class="row border-top text-center mx-0">
+                        <div class="col-6 border-end py-1">
+                            <p class="card-text text-muted mb-0">هدف</p>
+                            <h3 class="fw-bolder mb-0">186,617</h3>
+                        </div>
+                        <div class="col-6 py-1">
+                            <p class="card-text text-muted mb-0">پیشرفت</p>
+                            <h3 class="fw-bolder mb-0">13,561</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contract-trigger"></div>
+            </div>
+
+        </div>
+
+        <!-- /Goal Overview Card -->
+
+
+
+
+
+        <!-- Statistics Card -->
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="card card-apply-job">
+                    <a data-action="collapse">
+                        <div class="d-block  card-header flex-row  heading-elements">
+
+                            <div class="d-flex justify-content-between align-items-center ">
+                                <div class="d-flex flex-row">
+                                    <div class="avatar  bg-light-success avatar-lg">
+                                        <span class="avatar-content"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-check-square">
+                                                <polyline points="9 11 12 14 22 4"></polyline>
+                                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11">
+                                                </path>
+                                            </svg></span>
+                                        <span class="badge bg-warning rounded-pill badge-up">2</span>
+
+                                    </div>
+                                    <div class="user-info">
+                                        <h4 class="h4dashboard mb-0 ms-1 "> نکات </h4>
+                                        <small class="text-muted ">بروز رسانی شده در 10 ساعت پیش </small>
+                                    </div>
+                                </div>
+                                <a class="badge rounded-pill badge-light-primary" href="app-todo.html">ادامه ی فهرست نکات </a>
+                                <ul class="list-inline mb-0">
+                                    <li>
+                                        <a data-action="collapse" class=""><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-content collapse">
+                        <div class="card-body">
+
+                            <div class="todo-title-wrapper row">
+                                <div class="todo-title-area row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-more-vertical drag-icon col-1">
+                                        <circle cx="12" cy="12" r="1"></circle>
+                                        <circle cx="12" cy="5" r="1"></circle>
+                                        <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                    <div class="title-wrapper row col-11">
+                                        <div class="form-check col-2">
+                                            <input type="checkbox" class="form-check-input " id="customCheck1">
+                                            <label class="form-check-label" for="customCheck1"></label>
+                                        </div>
+                                        <span class="todo-title col-10">Fix Responsiveness for new structure 💻</span>
+                                    </div>
+                                </div>
+                                <div class="todo-item-action">
+                                    <div class="badge-wrapper me-1">
+                                        <span class="badge rounded-pill badge-light-primary">تیم</span>
+                                    </div>
+                                    <small class="text-nowrap text-muted me-1">Aug 08</small>
+                                    <div class="avatar">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="todo-title-wrapper row">
+                                <div class="todo-title-area row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-more-vertical drag-icon col-1">
+                                        <circle cx="12" cy="12" r="1"></circle>
+                                        <circle cx="12" cy="5" r="1"></circle>
+                                        <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                    <div class="title-wrapper row col-11">
+                                        <div class="form-check col-2">
+                                            <input type="checkbox" class="form-check-input " id="customCheck1">
+                                            <label class="form-check-label" for="customCheck1"></label>
+                                        </div>
+                                        <span class="todo-title col-10">Fix Responsiveness for new structure 💻</span>
+                                    </div>
+                                </div>
+                                <div class="todo-item-action">
+                                    <div class="badge-wrapper me-1">
+                                        <span class="badge rounded-pill badge-light-primary">تیم</span>
+                                    </div>
+                                    <small class="text-nowrap text-muted me-1">Aug 08</small>
+                                    <div class="avatar">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="todo-title-wrapper row">
+                                <div class="todo-title-area row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-more-vertical drag-icon col-1">
+                                        <circle cx="12" cy="12" r="1"></circle>
+                                        <circle cx="12" cy="5" r="1"></circle>
+                                        <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                    <div class="title-wrapper row col-11">
+                                        <div class="form-check col-2">
+                                            <input type="checkbox" class="form-check-input " id="customCheck1">
+                                            <label class="form-check-label" for="customCheck1"></label>
+                                        </div>
+                                        <span class="todo-title col-10">Fix Responsiveness for new structure 💻</span>
+                                    </div>
+                                </div>
+                                <div class="todo-item-action">
+                                    <div class="badge-wrapper me-1">
+                                        <span class="badge rounded-pill badge-light-primary">تیم</span>
+                                    </div>
+                                    <small class="text-nowrap text-muted me-1">Aug 08</small>
+                                    <div class="avatar">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card-footer d-grid">
+                        <a href="app-todo.html" class="btn btn-blue waves-effect waves-float waves-light">ایجاد
+                            نکته جدید</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="card card-apply-job">
+                    <a data-action="collapse">
+                        <div class="d-block  card-header flex-row  heading-elements">
+                            <div class="d-flex justify-content-between align-items-center ">
+
+                                <div class="d-flex flex-row">
+                                    <div class="avatar  bg-light-info avatar-lg ">
+                                        <span class="avatar-content"> <svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-message-square">
+                                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">
+                                                </path>
+                                            </svg></span>
+                                        <span class="badge bg-warning rounded-pill badge-up">2</span>
+
+                                    </div>
+                                    <div class="user-info">
+                                        <h4 class="h4dashboard mb-0 ms-1">پیام ها</h4>
+                                        <small class="text-muted">بروز رسانی شده در 10 ساعت پیش</small>
+                                    </div>
+                                </div>
+                                <a class="badge rounded-pill badge-light-primary">مشاهده تمامی پیام ها</a>
+                                <ul class="list-inline mb-0">
+                                    <li>
+                                        <a data-action="collapse" class="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-chevron-down">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <div class="card-content collapse">
+                        <div class="card-body">
+                            <a class="apply-job-package bg-light-primary rounded">
+                                <div>
+                                    <sup class="text-body"><small>پیام های جدید</small></sup>
+                                    <div class="avatar-group">
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Vinnie Mostowy">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Elicia Rieske">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-7.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Julee Rossignol">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-10.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Darcey Nooner">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-8.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Jenny Looper">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                    </div>
+                                    <sub class="text-body"><small></small></sub>
+                                </div>
+                                <span class="badge rounded-pill badge-light-primary"></span>
+                            </a>
+                            <a class="apply-job-package bg-light-primary rounded">
+                                <div>
+                                    <sup class="text-body"><small>پیام های جدید</small></sup>
+                                    <div class="avatar-group">
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Vinnie Mostowy">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Elicia Rieske">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-7.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Julee Rossignol">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-10.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Darcey Nooner">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-8.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                        <div data-bs-toggle="tooltip" data-popup="tooltip-custom"
+                                            data-bs-placement="top" title="" class="avatar pull-up"
+                                            data-bs-original-title="Jenny Looper">
+                                            <img src="./app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar"
+                                                height="32" width="32">
+                                        </div>
+                                    </div>
+                                    <sub class="text-body"><small></small></sub>
+                                </div>
+                                <span class="badge rounded-pill badge-light-primary"></span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="card-footer d-grid">
+                        <button type="button" class="btn btn-blue waves-effect waves-float waves-light">ایجاد
+                            گروه جدید</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- /Statistics Card -->
+
+            <div class="content-overlay"></div>
+            <div class="header-navbar-shadow"></div>
+            <div class="content-wrapper container-xxl p-0">
+                <div class="content-header row">
+                </div>
+                <div class="content-body">
+                    <!-- Dashboard Ecommerce Starts -->
+                    <div class="col-12">
+                        <div class="card card-statistics">
+                            <div class="card-header">
+                                <h4 class="card-title">داشبورد</h4>
+                                <div class="d-flex align-items-center">
+                                    <p class="card-text font-small-2 me-25 mb-0">توضیحات</p>
+                                </div>
+                            </div>
+                            <div class="card-body statistics-body">
+                                <div class="row">
+
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2">
+                                        <a class="d-flex flex-row" href="new-report-work.html">
+                                            <div class="avatar avatar-lg bg-light-primary me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-save">
+                                                        <path
+                                                            d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z">
+                                                        </path>
+                                                        <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                                                        <polyline points="7 3 7 8 15 8"></polyline>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto" id="savereportjob" data-bs-toggle="modal"
+                                                data-bs-target="#inlineform">
+                                                <h4 class="h4dashboard   mb-0" href="new-report-work.html">ثبت گزارش کار
+                                                </h4>
+                                                <!--p class="card-text font-small-3 mb-0"></p-->
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2">
+                                        <a class="d-flex flex-row" href="datatable.html">
+                                            <div class="avatar avatar-lg bg-light-warning me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-list">
+                                                        <line x1="8" y1="6" x2="21" y2="6"></line>
+                                                        <line x1="8" y1="12" x2="21" y2="12"></line>
+                                                        <line x1="8" y1="18" x2="21" y2="18"></line>
+                                                        <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                                                        <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                                                        <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0" id="reportlist">لیست گزارش کار</h4>
+                                                <!--p class="card-text font-small-3 mb-0"></p-->
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2">
+                                        <a class="d-flex flex-row">
+                                            <div class="avatar avatar-lg bg-light-secondary me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-inbox">
+                                                        <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
+                                                        <path
+                                                            d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0">میز کار</h4>
+                                                <p class="card-text font-small-3 mb-0">توضیحات</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2">
+                                        <a class="d-flex flex-row">
+                                            <div class="avatar avatar-lg bg-light-primary me-2">
+                                                <div class="avatar-content">
+
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-book-open">
+                                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                                    </svg>
+
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0">دفترچه تلفن</h4>
+                                                <p class="card-text font-small-3 mb-0">توضیحات</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2">
+                                        <a class="d-flex flex-row" href="datatable.html">
+                                            <div class="avatar avatar-lg bg-light-info me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-box font-medium-6">
+                                                        <path
+                                                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                        </path>
+                                                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0">کارتابل ورودی</h4>
+                                                <p class="card-text font-small-3 mb-0"></p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2 ">
+                                        <a class="d-flex flex-row" href="datatable.html">
+                                            <div class="avatar avatar-lg bg-light-danger me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-box font-medium-6">
+                                                        <path
+                                                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                        </path>
+                                                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0">کارتابل خروجی</h4>
+                                                <p class="card-text font-small-3 mb-0"></p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-xl-3 col-md-4 col-sm-6 collg-12 mb-2">
+                                        <a class="d-flex flex-row" href="datatable.html">
+                                            <div class="avatar avatar-lg bg-light-success me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-file-text font-medium-6">
+                                                        <path
+                                                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">
+                                                        </path>
+                                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                                                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                                                        <polyline points="10 9 9 9 8 9"></polyline>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0">قرارداد ها</h4>
+                                                <p class="card-text font-small-3 mb-0">توضیحات</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2">
+                                        <a class="d-flex flex-row">
+                                            <div class="avatar avatar-lg bg-light-info me-2">
+                                                <div class="avatar-content">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-info">
+                                                        <circle cx="12" cy="12" r="10"></circle>
+                                                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                                                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="my-auto">
+                                                <h4 class="h4dashboard   mb-0">درباره ی سایت</h4>
+                                                <p class="card-text font-small-3 mb-0">توضیحات</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- Dashboard Ecommerce ends -->
+
+            </div>
+        </div>
+
+
+        <!-- END: Content-->
+
+        <div class="sidenav-overlay"
+            style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+        </div>
+        <div class="drag-target"
+            style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- BEGIN: Footer-->
+        <footer class="footer footer-static footer-light">
+            <p class="clearfix mb-0"><span class="float-md-start d-block d-md-inline-block mt-25">COPYRIGHT &copy;
+                    2021<a class="ms-25" href="https://1.envato.market/ _portfolio" target="_blank"> </a><span
+                        class="d-none d-sm-inline-block">, All rights Reserved</span></span><span
+                    class="float-md-end d-none d-md-block">Ghazaleh Keyvani Hafshejani<i
+                        data-feather="heart"></i></span>
+            </p>
+        </footer>
+        <button class="btn btn-blue btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+        <!-- END: Footer-->
+
+        <!-- BEGIN: modal voqo-->
+        <!-- <section class="modal fade text-start show horizontal-wizard" id="inlineForm">
+
+            <div class="bs-stepper horizontal-wizard-example linear">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="bs-stepper-header modal-header" role="tablist">
+
+                            <div class="step" data-target="#personal-info" role="tab" id="personal-info-trigger">
+                                <button type="button" class="step-trigger" aria-selected="false" disabled="disabled">
+                                    <span class="bs-stepper-box">1</span>
+                                    <span class="bs-stepper-label">
+                                        <span class="bs-stepper-title">اطلاعات پروژه</span>
+                                        <span class="bs-stepper-subtitle">اطلاعات پروژه ای کار کرده اید را وارد
+                                            نمایید.</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="line">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-right font-medium-2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="step" data-target="#address-step" role="tab" id="address-step-trigger">
+                                <button type="button" class="step-trigger" aria-selected="false" disabled="disabled">
+                                    <span class="bs-stepper-box">2</span>
+                                    <span class="bs-stepper-label">
+                                        <span class="bs-stepper-title">توضیحات</span>
+                                        <span class="bs-stepper-subtitle">توضیحات کاری که انجام داده اید را
+                                            بنویسید.</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="line">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-right font-medium-2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="bs-stepper-content modal-body">
+                            <div id="personal-info" class="content" role="tabpanel"
+                                aria-labelledby="personal-info-trigger">
+                                <div class="content-header">
+                                    <h5 class="mb-0">اطلاعات پروژه</h5>
+                                    <small></small>
+                                </div>
+                                <form novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="first-name">زیر گروه</label>
+                                            <input type="text" name="first-name" id="first-name" class="form-control"
+                                                placeholder="John">
+                                        </div>
+
+                                        <div class="mb-1 ">
+                                            <label class="form-label" for="country">پروژه</label>
+                                            <div class="position-relative"><select
+                                                    class="select2 w-100 select2-hidden-accessible" name="country"
+                                                    id="country" data-select2-id="country" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <option label=" " data-select2-id="2"></option>
+                                                    <option>UK</option>
+                                                    <option>USA</option>
+                                                    <option>Spain</option>
+                                                    <option>France</option>
+                                                    <option>Italy</option>
+                                                    <option>Australia</option>
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" data-select2-id="1" style="width: auto;"><span
+                                                        class="selection"><span
+                                                            class="select2-selection select2-selection--single"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0" aria-disabled="false"
+                                                            aria-labelledby="select2-country-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-country-container" role="textbox"
+                                                                aria-readonly="true"><span
+                                                                    class="select2-selection__placeholder">Select
+                                                                    value</span></span><span
+                                                                class="select2-selection__arrow" role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-1 ">
+                                            <label class="form-label" for="country">گروه</label>
+                                            <div class="position-relative"><select
+                                                    class="select2 w-100 select2-hidden-accessible" name="country"
+                                                    id="country" data-select2-id="country" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <option label=" " data-select2-id="2"></option>
+                                                    <option>UK</option>
+                                                    <option>USA</option>
+                                                    <option>Spain</option>
+                                                    <option>France</option>
+                                                    <option>Italy</option>
+                                                    <option>Australia</option>
+                                                </select><span
+                                                    class="select2 select2-container select2-container--default"
+                                                    dir="ltr" data-select2-id="1" style="width: auto;"><span
+                                                        class="selection"><span
+                                                            class="select2-selection select2-selection--single"
+                                                            role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                            tabindex="0" aria-disabled="false"
+                                                            aria-labelledby="select2-country-container"><span
+                                                                class="select2-selection__rendered"
+                                                                id="select2-country-container" role="textbox"
+                                                                aria-readonly="true"><span
+                                                                    class="select2-selection__placeholder">Select
+                                                                    value</span></span><span
+                                                                class="select2-selection__arrow" role="presentation"><b
+                                                                    role="presentation"></b></span></span></span><span
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span></div>
+
+                                        </div>
+                                </form>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-blue btn-prev waves-effect waves-float waves-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-left align-middle me-sm-25 me-0">
+                                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                                            <polyline points="12 19 5 12 12 5"></polyline>
+                                        </svg>
+                                        <span class="align-middle d-sm-inline-block d-none">مرحله قبل</span>
+                                    </button>
+                                    <button class="btn btn-blue btn-next waves-effect waves-float waves-light">
+                                        <span class="align-middle d-sm-inline-block d-none">مرحله بعد</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right align-middle ms-sm-25 ms-0">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="address-step" class="content" role="tabpanel"
+                                aria-labelledby="address-step-trigger">
+                                <div class="content-header">
+                                    <h5 class="mb-0">اطلاعات پروژه</h5>
+                                    <small>Enter Your Address.</small>
+                                </div>
+                                <form novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="mb-1 ">
+                                            <label class="form-label" for="address">Address</label>
+                                            <input type="text" id="address" name="address" class="form-control"
+                                                placeholder="98  Borough bridge Road, Birmingham">
+                                        </div>
+                                        <div class="mb-1 ">
+                                            <label class="form-label" for="landmark">Landmark</label>
+                                            <input type="text" name="landmark" id="landmark" class="form-control"
+                                                placeholder="Borough bridge">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-1 ">
+                                            <label class="form-label" for="pincode1">Pincode</label>
+                                            <input type="text" id="pincode1" class="form-control" placeholder="658921">
+                                        </div>
+                                        <div class="mb-1 ">
+                                            <label class="form-label" for="city1">City</label>
+                                            <input type="text" id="city1" class="form-control" placeholder="Birmingham">
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-blue btn-prev waves-effect waves-float waves-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-left align-middle me-sm-25 me-0">
+                                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                                            <polyline points="12 19 5 12 12 5"></polyline>
+                                        </svg>
+                                        <span class="align-middle d-sm-inline-block d-none">مرحله قبل</span>
+                                    </button>
+                                    <button class="btn btn-blue btn-next waves-effect waves-float waves-light">
+                                        <span class="align-middle d-sm-inline-block d-none">مرحله بعد</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right align-middle ms-sm-25 ms-0">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+        <!-- END: modal voqo-->
+        <section class="modal  text-start show vertical-wizard" id="inlineForm">
+            <div class="bs-stepper vertical vertical-wizard-example">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bs-stepper-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="step crossed" data-target="#account-details-vertical" role="tab"
+                        id="account-details-vertical-trigger">
+                            <button type="button" class="step-trigger" aria-selected="false">
+                                <span class="bs-stepper-box">1</span>
+                                <span class="bs-stepper-label">
+                                    <span class="bs-stepper-title">اطلاعات پروژه</span>
+                                    <span class="bs-stepper-subtitle">اطلاعات پروژه ای که کار کرده اید را وارد
+                                        نمایید.</span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="step active" data-target="#personal-info-vertical" role="tab" id="personal-info-vertical-trigger">
+                            <button type="button" class="step-trigger" aria-selected="true">
+                                <span class="bs-stepper-box">2</span>
+                                <span class="bs-stepper-label">
+                                    <span class="bs-stepper-title">توضیحات</span>
+                                    <span class="bs-stepper-subtitle">توضیحات کاری که انجام داده اید را بنویسید.</span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="step" data-target="#social-links-vertical" role="tab"
+                            id="social-links-vertical-trigger">
+                            <button type="button" class="step-trigger" aria-selected="false">
+                                <span class="bs-stepper-box">3</span>
+                                <span class="bs-stepper-label">
+                                    <span class="bs-stepper-title">ارزیابی عملکرد من</span>
+                                    <span class="bs-stepper-subtitle">عملکرد امروز خود را چگونه ارزیابی می کنید؟</span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-body bs-stepper-content">
+                        <div id="account-details-vertical" class="content dstepper-block" role="tabpanel"
+                            aria-labelledby="account-details-vertical-trigger">
+                            <div class="content-header">
+    
+                                <h5 class="mb-0">اطلاعات پروژه</h5>
+                                <small class="text-muted">اطلاعات پروژه ای که کار کرده اید را وارد
+                                    نمایید.</small>
+                            </div>
+                            <div class="row">
+                                <!-- <div class="mb-1 "> -->
+                                <div class="mb-1 " data-select2-id="24">
+                                    <label class="form-label" for="project_name">عنوان پروژه</label>
+                                    <div class="position-relative" data-select2-id="19">
+                                        <div class="position-relative" data-select2-id="23"><select
+                                                class="select2 w-100 select2-hidden-accessible" name="project_name"
+                                                id="project_name" data-select2-id="project_name" tabindex="-1"
+                                                aria-hidden="true">
+                                                <option label=" " data-select2-id="2"></option>
+                                                <option data-select2-id="21">پروژه1</option>
+                                                <option data-select2-id="22">پروژه2</option>
+                                                <option data-select2-id="23">IPF1</option>
+                                                <option data-select2-id="24">IPF2</option>
+                                                <option data-select2-id="25">NORDIC</option>
+                                                <option data-select2-id="26">برنامه ساعت کاری</option>
+                                                <option label=" " data-select2-id="27">تست کنتور</option>
+                                            </select></div>
+                                    </div>
+                                </div>
+    
+                                <!-- </div> -->
+                                <!-- <label class="form-label" for="vertical-username">Username</label>
+                                <input type="text" id="vertical-username" class="form-control" placeholder="johndoe"> -->
+                            </div>
+                            <div class="row">
+                                <div class="mb-1 " data-select2-id="25">
+                                    <label class="form-label" for="group">گروه</label>
+                                    <div class="position-relative" data-select2-id="20">
+                                        <div class="position-relative" data-select2-id="23">
+                                            <div class="position-relative" data-select2-id="25"><select
+                                                    class="select2 w-100 select2-hidden-accessible" name="group" id="group"
+                                                    data-select2-id="group" tabindex="-1" aria-hidden="true">
+                                                    <option label=" " data-select2-id="1"></option>
+                                                    <option data-select2-id="28">پروژه1</option>
+                                                    <option data-select2-id="29">پروژه2</option>
+                                                    <option data-select2-id="30">IPF1</option>
+                                                    <option data-select2-id="31">IPF2</option>
+                                                    <option data-select2-id="32">NORDIC</option>
+                                                    <option data-select2-id="33">برنامه ساعت کاری</option>
+                                                    <option label=" " data-select2-id="34">تست کنتور</option>
+                                                </select></div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+    
+                            </div>
+                            <div class="row">
+                                <div class="mb-1 " data-select2-id="26">
+                                    <label class="form-label" for="subgroup">زیر گروه</label>
+                                    <div class="position-relative" data-select2-id="20">
+                                        <div class="position-relative" data-select2-id="23">
+                                            <div class="position-relative" data-select2-id="25"><select
+                                                    class="select2 w-100 select2-hidden-accessible" name="subgroup"
+                                                    id="subgroup" data-select2-id="subgroup" tabindex="-1"
+                                                    aria-hidden="true">
+                                                    <option label=" " data-select2-id="35"></option>
+                                                    <option data-select2-id="36">پروژه1</option>
+                                                    <option data-select2-id="37">پروژه2</option>
+                                                    <option data-select2-id="38">IPF1</option>
+                                                    <option data-select2-id="39">IPF2</option>
+                                                    <option data-select2-id="40">NORDIC</option>
+                                                    <option data-select2-id="41">برنامه ساعت کاری</option>
+                                                    <option label=" " data-select2-id="42">تست کنتور</option>
+                                                </select></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-secondary btn-prev waves-effect" disabled="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left align-middle me-sm-25 me-0"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                                    <span class="align-middle d-sm-inline-block d-none">مرحله قبل</span>
+                                </button>
+                                <button class="btn btn-blue btn-next waves-effect waves-float waves-light">
+                                    <span class="align-middle d-sm-inline-block d-none">مرحله بعد</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right align-middle ms-sm-25 ms-0"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="personal-info-vertical" class="content active dstepper-block" role="tabpanel" aria-labelledby="personal-info-vertical-trigger">
+                            <div class="content-header">
+                                <h5 class="mb-0">توضیحات</h5>
+                                <small>شرح کاری که انجام داده اید را بنویسید.</small>
+                            </div>
+                            <div class="row">
+                                <div class=" py-2">
+                                    <div class="form-floating mb-0 pb-1">
+                                        <textarea data-length="20" class="form-control char-textarea" id="textarea-counter" rows="3" placeholder="Counter" style="height: 100px"></textarea>
+                                        <label for="textarea-counter">شرح جزییات کار</label>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-12">
+                                    <div class="mb-1">
+                                        <label class="form-label" for="">مدت کارکرد(ساعت)</label>
+                                        <input type="time" class="form-control">
+        
+                                    </div>
+        
+        
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-blue btn-prev waves-effect waves-float waves-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left align-middle me-sm-25 me-0"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                                    <span class="align-middle d-sm-inline-block d-none">مرحله قبل</span>
+                                </button>
+                                <button class="btn btn-blue btn-next waves-effect waves-float waves-light">
+                                    <span class="align-middle d-sm-inline-block d-none">مرحله بعد</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right align-middle ms-sm-25 ms-0"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div class="d-flex justify-content-between">
+                            <button class="btn btn-outline-secondary btn-prev waves-effect" disabled="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-arrow-left align-middle me-sm-25 me-0">
+                                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                                    <polyline points="12 19 5 12 12 5"></polyline>
+                                </svg>
+                                <span class="align-middle d-sm-inline-block d-none">مرحله قبل</span>
+                            </button>
+                            <button class="btn btn-blue btn-next waves-effect waves-float waves-light">
+                                <span class="align-middle d-sm-inline-block d-none">مرحله بعد</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-arrow-right align-middle ms-sm-25 ms-0">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+                        </div> -->
+                        <div id="social-links-vertical" class="content dstepper-block" role="tabpanel"
+                        aria-labelledby="social-links-vertical-trigger">
+                        <div class="content-header">
+                            <h5 class="mb-0">ارزیابی عملکرد من</h5>
+                            <small>عملکرد امروز خود را چگونه ارزیابی می کنید؟</small>
+                        </div>
+                        <div class="row d-flex justify-content-around">
+                       
+    
+                                <div class="col-sm-3 col-6 py-2">
+                                    <div class="d-flex flex-wrap" id="icons-container"><div class="card icon-card cursor-pointer text-center mb-2 mx-50 active" data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="top" title="frown" data-icon="<i data-feather='frown'></i>" style="display: block;"> <div class="card-body"> <div class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-frown"><circle cx="12" cy="12" r="10"></circle><path d="M16 16s-1.5-2-4-2-4 2-4 2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg></div><p class="icon-name text-truncate mb-0 mt-1">بد</p> </div></div></div>
+                                    
+                                </div>
+                                <div class="col-sm-3 col-6 py-2">
+                                    <div class="d-flex flex-wrap" id="icons-container"><div class="card icon-card cursor-pointer text-center mb-2 mx-50" data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="top" title="thumbs-down" data-icon="<i data-feather='thumbs-down'></i>" style="display: block;"> <div class="card-body"> <div class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-thumbs-down"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"></path></svg></div><p class="icon-name text-truncate mb-0 mt-1">عادی</p> </div></div></div>
+                                   
+                                </div>
+                                <div class="col-sm-3 col-6 py-2">
+                                   <div class="d-flex flex-wrap" id="icons-container"><div class="card icon-card cursor-pointer text-center mb-2 mx-50" data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="top" title="thumbs-up" data-icon="<i data-feather='thumbs-up'></i>" style="display: block;"> <div class="card-body"> <div class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-thumbs-up"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg></div><p class="icon-name text-truncate mb-0 mt-1">خوب</p> </div></div></div>
+                                    
+                                </div>
+                                <div class="col-sm-3 col-6 py-2">
+                                   <div class="d-flex flex-wrap" id="icons-container"><div class="card icon-card cursor-pointer text-center mb-2 mx-50" data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="top" title="smile" data-icon="<i data-feather='smile'></i>" style="display: block;"> <div class="card-body"> <div class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smile"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg></div><p class="icon-name text-truncate mb-0 mt-1">عالی</p> </div></div></div>
+                                    
+                                </div>
+                        </div>
+        
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-blue btn-prev waves-effect waves-float waves-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-arrow-left align-middle me-sm-25 me-0">
+                                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                                        <polyline points="12 19 5 12 12 5"></polyline>
+                                    </svg>
+                                    <span class="align-middle d-sm-inline-block d-none">مرحله قبل</span>
+                                </button>
+                                <button class="btn btn-success btn-submit waves-effect waves-float waves-light" data-bs-dismiss="modal" aria-label="Close">ثبت</button>
+                            </div>
+                        
+    
+                    </div>
+                    </div>
+                
+                   
+                </div></div>
+
+            </div>
+            
+        </section>
+    </div>
+    </section>
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="app-assets/vendors/js/forms/wizard/bs-stepper.min.js"></script>
+    
+    <script src="app-assets/vendors/js/extensions/sweetalert2.all.min.js" aria-hidden="true"></script>
+    <script src="app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+    <!-- END: Page Vendor JS-->
+    
+    <!-- BEGIN: Theme JS-->
+    <script src="app-assets/js/core/app-menu.js"></script>
+    <script src="app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+    
+    <!-- BEGIN: form-wizard JS-->
+    <script src="app-assets/js/scripts/forms/form-wizard.min.js"></script>
+    
+    <!-- END: form-wizard JS-->
+    
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+
+        function ShowModal() {
+
+            $('#Quitmodal').modal('show');
+        }
+        function showVorodModal() {
+            swal.fire({
+            icon: 'success',
+            title: 'موفق!',
+            text: 'ورود شما در ساعت 8 صبح ثبت گردید.',
+            type: 'success',
+            confirmButtonText: 'ثبت',
+            customClass: {
+            confirmButton: 'btn btn-success'
+            },
+            buttonsStyling: false
+            })
+        }
+    </script>
+
+</body>
+<!-- END: Body-->
+
+
+
+</html>

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description"
+        content="keyvani admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, keyvani admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>جدول اطلاعات</title>
+    <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="behkar_ico256.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/colors.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/components.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/core/menu/menu-types/vertical-menu.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/custom-rtl.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-rtl.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styleme.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header-->
+    <nav
+        class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow container-xxl">
+        <div class="navbar-container d-flex content">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle" href="#"><i class="ficon"
+                                data-feather="menu"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav bookmark-icons">
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="پست الکترونیک"><i class="ficon"
+                                data-feather="mail"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="پیام "><i class="ficon"
+                                data-feather="message-square"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="تقویم"><i class="ficon"
+                                data-feather="calendar"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" title="نکات"><i class="ficon"
+                                data-feather="check-square"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i
+                                class="ficon text-warning" data-feather="star"></i></a>
+                        <div class="bookmark-input search-input">
+                            <div class="bookmark-input-icon"><i data-feather="search"></i></div>
+                            <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0"
+                                data-search="search">
+                            <ul class="search-list search-list-bookmark"></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav align-items-center ms-auto">
+                <li class="nav-item dropdown dropdown-language"><a class="nav-link dropdown-toggle" id="dropdown-flag"
+                        href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                            class="flag-icon flag-icon-ir"></i><span class="selected-language">فارسی</span></a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-flag"><a
+                            class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us"></i>
+                            English</a><a class="dropdown-item" href="#" data-language="fr"><i
+                                class="flag-icon flag-icon-ir"></i> فارسی</a>
+
+                </li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon"
+                            data-feather="moon"></i></a></li>
+
+
+                <li class="nav-item dropdown dropdown-notification me-25"><a class="nav-link" href="#"
+                        data-bs-toggle="dropdown"><i class="ficon" data-feather="bell"></i><span
+                            class="badge rounded-pill bg-danger badge-up">5</span></a>
+                    <ul class="dropdown-menu dropdown-menu-media dropdown-menu-end">
+                        <li class="dropdown-menu-header">
+                            <div class="dropdown-header d-flex">
+                                <h4 class="notification-title mb-0 me-auto">نوتیفیکیشن ها</h4>
+                                <div class="badge rounded-pill badge-light-primary">6 جدید</div>
+                            </div>
+                        </li>
+                        <li class="scrollable-container media-list"><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar"><img
+                                                src="./app-assets/images/portrait/small/avatar-s-15.jpg" alt="avatar"
+                                                width="32" height="32"></div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder">محتویات
+                                                نوتیفیکیشن🎉</span>سلام!</p><small class="notification-text"></small>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="list-item d-flex align-items-center">
+                                <h6 class="fw-bolder me-auto mb-0">سیستم نوتیفیکیشن</h6>
+                                <div class="form-check form-check-primary form-switch">
+                                    <input class="form-check-input" id="systemNotification" type="checkbox" checked="">
+                                    <label class="form-check-label" for="systemNotification"></label>
+                                </div>
+                            </div><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar bg-light-danger">
+                                            <div class="avatar-content"><i class="avatar-icon" data-feather="x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder">
+                                                </span>&nbsp;</p><small class="notification-text">
+                                            </small>
+                                    </div>
+                                </div>
+                            </a><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar bg-light-success">
+                                            <div class="avatar-content"><i class="avatar-icon" data-feather="check"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder">
+                                                </span>&nbsp;</p><small class="notification-text">
+                                            </small>
+                                    </div>
+                                </div>
+                            </a><a class="d-flex" href="#">
+                                <div class="list-item d-flex align-items-start">
+                                    <div class="me-1">
+                                        <div class="avatar bg-light-warning">
+                                            <div class="avatar-content"><i class="avatar-icon"
+                                                    data-feather="alert-triangle"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="list-item-body flex-grow-1">
+                                        <p class="media-heading"><span class="fw-bolder"></span>&nbsp;
+                                        </p><small class="notification-text"></small>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu-footer"><a class="btn btn-blue w-100" href="#">خواندن تمامی
+                                نوتیفیکیشن ها</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link"
+                        id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder">غزاله
+                                کیوانی</span><span class="user-status">کارمند</span></div><span class="avatar"><img
+                                class="round" src="./app-assets/images/portrait/small/avatar-s-11.jpg" alt="avatar"
+                                height="40" width="40"><span class="avatar-status-online"></span></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user"><a
+                            class="dropdown-item" href="page-profile.html"><i class="me-50" data-feather="user"></i>
+                            پروفایل</a><a class="dropdown-item" href="app-email.html"><i class="me-50"
+                                data-feather="mail"></i> صندوق ورودی</a><a class="dropdown-item" href="app-todo.html"><i
+                                class="me-50" data-feather="check-square"></i> وظایف</a><a class="dropdown-item"
+                            href="app-chat.html"><i class="me-50" data-feather="message-square"></i> پیام ها</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item"
+                            href="page-account-settings-account.html"><i class="me-50" data-feather="settings"></i>
+                            تنظیمات</a><a class="dropdown-item" href="page-pricing.html"><i class="me-50"
+                                data-feather="credit-card"></i> پرداخت</a><a class="dropdown-item"
+                            href="page-faq.html"><i class="me-50" data-feather="help-circle"></i> پرسش های متداول</a><a
+                            class="dropdown-item" href="auth-login-cover.html"><i class="me-50"
+                                data-feather="power"></i> خروج</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="main-search-list-defaultlist d-none">
+        <li class="d-flex align-items-center"><a href="#">
+                <h6 class="section-label mt-75 mb-0">Files</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/xls.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing
+                            Manager</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;17kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/jpg.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd
+                            Developer</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;11kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/pdf.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital
+                            Marketing Manager</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;150kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="./app-assets/images/icons/doc.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web
+                            Designer</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;256kb</small>
+            </a></li>
+        <li class="d-flex align-items-center"><a href="#">
+                <h6 class="section-label mt-75 mb-0">Members</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-8.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">غزاله کیوانی</p><small class="text-muted">UI designer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-11.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd
+                            Developer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-14.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing
+                            Manager</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="./app-assets/images/portrait/small/avatar-s-6.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
+                    </div>
+                </div>
+            </a></li>
+    </ul>
+    <ul class="main-search-list-defaultlist-other-list d-none">
+        <li class="auto-suggestion justify-content-between"><a
+                class="d-flex align-items-center justify-content-between w-100 py-50">
+                <div class="d-flex justify-content-start"><span class="me-75"
+                        data-feather="alert-circle"></span><span>No results found.</span></div>
+            </a></li>
+    </ul>
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item me-auto">
+                    <a class="navbar-brand" href="./index.html"><span class="brand-logo"><img src="./behkar_ico256.png"
+                                alt="behkar_ico"></span>
+                        <h2 class="brand-text color26b2ab">شتاب ساز</h2>
+                    </a>
+                </li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i
+                            class="d-block d-xl-none color26b2ab toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  color26b2ab"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i
+                            data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">صفحه ی
+                            اصلی</span>
+
+                </li>
+                <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">برنامه ها و صفحات</span><i
+                        data-feather="more-horizontal"></i>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-chat.html"><i
+                            data-feather="message-square"></i><span class="menu-title text-truncate"
+                            data-i18n="Chat">پیام ها</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-todo.html"><i
+                            data-feather="check-square"></i><span class="menu-title text-truncate"
+                            data-i18n="Todo">نکات</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="new-report-work.html"><i
+                            data-feather="save"></i><span class="menu-title text-truncate" data-i18n="Calendar">ثبت
+                            گزارش کار</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="datatable.html"><i
+                            data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Kanban">لیست گزارش
+                            کار</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i
+                            data-feather="file-text"></i><span class="menu-title text-truncate"
+                            data-i18n="contracts">قرار دادها</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-file-manager.html"><i
+                            data-feather="book"></i><span class="menu-title text-truncate"
+                            data-i18n="File Manager">دفترچه تلفن</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="shield"></i><span
+                            class="menu-title text-truncate" data-i18n="Cardboard">کارتابل ها</span></a>
+                    <ul class="menu-content">
+                        <li><a class="d-flex align-items-center" href="app-access-roles.html"><i
+                                    data-feather="circle"></i><span class="menu-item text-truncate"
+                                    data-i18n="Input card">کارتابل ورودی</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="app-access-permission.html"><i
+                                    data-feather="circle"></i><span class="menu-item text-truncate"
+                                    data-i18n="Output card">کارتابل خروجی</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="user"></i><span
+                            class="menu-title text-truncate" data-i18n="User info">اطلاعات کاربری</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="info"></i><span
+                            class="menu-title text-truncate" data-i18n="Pages">درباره ی سایت</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="inbox"></i><span
+                            class="menu-title text-truncate" data-i18n="Authentication">میز کار</span></a>
+
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper container-xxl p-0">
+            <div class="content-body">
+
+                <div class="content-header row">
+                    <div class="content-header-left col-md-9 col-12 mb-2">
+                        <div class="row breadcrumbs-top">
+                            <div class="col-12">
+                                <h2 class="content-header-title float-start mb-0">جدول اطلاعات</h2>
+                                <div class="breadcrumb-wrapper">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">صفحه اصلی</a>
+                                        </li>
+                                        <li class="breadcrumb-item"><a href="#">جدول داده ها</a>
+                                        </li>
+                                        <!--li class="breadcrumb-item active">Basic
+                                        </li-->
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-header-right text-md-end col-md-3 col-12 d-md-block d-none">
+                        <div class="mb-1 breadcrumb-right">
+                            <div class="dropdown">
+                                <button
+                                    class="btn-icon btn btn-blue btn-round btn-sm dropdown-toggle waves-effect waves-float waves-light"
+                                    type="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+                                        <rect x="3" y="3" width="7" height="7"></rect>
+                                        <rect x="14" y="3" width="7" height="7"></rect>
+                                        <rect x="14" y="14" width="7" height="7"></rect>
+                                        <rect x="3" y="14" width="7" height="7"></rect>
+                                    </svg></button>
+                                <div class="dropdown-menu dropdown-menu-end" style=""><a class="dropdown-item"
+                                        href="app-todo.html"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                            height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-check-square me-1">
+                                            <polyline points="9 11 12 14 22 4"></polyline>
+                                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                                        </svg><span class="align-middle">نکات</span></a><a class="dropdown-item"
+                                        href="app-chat.html"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                            height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-message-square me-1">
+                                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">
+                                            </path>
+                                        </svg><span class="align-middle">پیام</span></a><a class="dropdown-item"
+                                        href="app-email.html"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                            height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-mail me-1">
+                                            <path
+                                                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                            </path>
+                                            <polyline points="22,6 12,13 2,6"></polyline>
+                                        </svg><span class="align-middle">پست الکترونیک</span></a><a class="dropdown-item"
+                                        href="app-calendar.html"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                            height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-calendar me-1">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                                        </svg><span class="align-middle">تقویم</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-body">
+
+                    <!-- Basic table -->
+                    <section id="basic-datatable">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div id="DataTables_Table_0_wrapper"
+                                        class="dataTables_wrapper dt-bootstrap5 no-footer">
+                                        <div class="collapse" id="filter"></div>
+                                        <table class="datatables-basic table dataTable no-footer dtr-column"
+                                            id="DataTables_Table_0" role="grid"
+                                            aria-describedby="DataTables_Table_0_info" style="width: 1127px;">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="control sorting_disabled" rowspan="1" colspan="1"
+                                                        style="width: 43px; display: none;" aria-label=""></th>
+                                                    <th class="sorting_disabled dt-checkboxes-cell dt-checkboxes-select-all"
+                                                        rowspan="1" colspan="1" style="width: 43px;" data-col="1"
+                                                        aria-label="">
+                                                        <div class="form-check"> <input class="form-check-input"
+                                                                type="checkbox" value="" id="checkboxSelectAll"><label
+                                                                class="form-check-label"
+                                                                for="checkboxSelectAll"></label></div>
+                                                    </th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                        rowspan="1" colspan="1" style="width: 113px;"
+                                                        aria-label="Name: activate to sort column ascending">نام</th>
+                                                        
+                                                         <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                        rowspan="1" colspan="1" style="width: 113px;"
+                                                        aria-label="Name: activate to sort column ascending"> نام و نام خانوادگی</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                        rowspan="1" colspan="1" style="width: 116px;"
+                                                        aria-label="Email: activate to sort column ascending">پست الکترونیک</th>
+                                                    <th class="sorting sorting_asc" tabindex="0"
+                                                        aria-controls="DataTables_Table_0" rowspan="1" colspan="1"
+                                                        style="width: 103px;"
+                                                        aria-label="Date: activate to sort column descending"
+                                                        aria-sort="ascending">تاریخ</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                        rowspan="1" colspan="1" style="width: 137px;"
+                                                        aria-label="Salary: activate to sort column ascending">حقوق
+                                                    </th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                        rowspan="1" colspan="1" style="width: 132px;"
+                                                        aria-label="Status: activate to sort column ascending">وضعیت
+                                                    </th>
+                                                    <th class="sorting_disabled" rowspan="1" colspan="1"
+                                                        style="width: 164px;" aria-label="Actions">فعالیت ها</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="odd">
+                                                    <td valign="top" colspan="7" class="dataTables_empty">داده‌ای در جدول در دسترس نمی باشد</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal to add new record -->
+                        <div class="modal modal-slide-in fade" id="modals-slide-in">
+                            <div class="modal-dialog sidebar-sm">
+                                <form class="add-new-record modal-content pt-0">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">×</button>
+                                    <div class="modal-header mb-1">
+                                        <h5 class="modal-title" id="exampleModalLabel">رکورد جدید</h5>
+                                    </div>
+                                    <div class="modal-body flex-grow-1">
+                                        <div class="mb-1">
+                                            <label class="form-label" for="basic-icon-default-fullname">نام و نام
+                                                خانوادگی</label>
+                                            <input type="text" class="form-control dt-full-name"
+                                                id="basic-icon-default-fullname" placeholder="غزاله کیوانی"
+                                                aria-label="غزاله کیوانی">
+                                        </div>
+                                        <div class="mb-1">
+                                            <label class="form-label" for="basic-icon-default-post">نقش</label>
+                                            <input type="text" id="basic-icon-default-post" class="form-control dt-post"
+                                                placeholder="مدیر" aria-label="Web Developer">
+                                        </div>
+                                        <div class="mb-1">
+                                            <label class="form-label" for="basic-icon-default-email">ایمیل</label>
+                                            <input type="text" id="basic-icon-default-email"
+                                                class="form-control dt-email" placeholder="john.doe@example.com"
+                                                aria-label="john.doe@example.com">
+                                            <small class="form-text"> شما می توانید از اعداد ، حروف و نقطه استفاده
+                                                نمایید
+                                            </small>
+                                        </div>
+                                        <div class="mb-1">
+                                            <label class="form-label" for="basic-icon-default-date">زمان عضویت</label>
+                                            <input type="hidden" class="form-control dt-date flatpickr-input"
+                                                id="basic-icon-default-date" placeholder="MM/DD/YYYY"
+                                                aria-label="MM/DD/YYYY" readonly="readonly"><input
+                                                class="form-control dt-date flatpickr-input flatpickr-mobile"
+                                                tabindex="1" type="date" placeholder="MM/DD/YYYY">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="form-label" for="basic-icon-default-salary"></label>
+                                            <input type="text" id="basic-icon-default-salary"
+                                                class="form-control dt-salary" placeholder="$12000" aria-label="$12000">
+                                        </div>
+                                        <button type="button"
+                                            class="btn btn-blue data-submit me-1 waves-effect waves-float waves-light">ثبت</button>
+                                        <button type="reset" class="btn btn-outline-secondary waves-effect"
+                                            data-bs-dismiss="modal">لغو</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <!--/ Basic table -->
+                </div>
+
+
+
+                <div class="sidenav-overlay"
+                    style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                </div>
+                <div class="drag-target"
+                    style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                </div>
+
+                <!-- BEGIN: Footer-->
+                <footer class="footer footer-static footer-light mb-0 pb-0">
+                    <p class="clearfix mb-0"><span class="float-md-start d-block d-md-inline-block mt-25">COPYRIGHT
+                            &copy; 2021<a class="ms-25" href="https://1.envato.market/pixinvent_portfolio"
+                                target="_blank"> </a><span class="d-none d-sm-inline-block">, All rights
+                                Reserved</span></span><span class="float-md-end d-none d-md-block">Ghazaleh Keyvani
+                            Hafshejani<i data-feather="heart"></i></span></p>
+                </footer>
+                <button class="btn btn-blue btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+                <!-- END: Footer-->
+
+                <!-- BEGIN: Vendor JS-->
+                <script src="app-assets/vendors/js/vendors.min.js"></script>
+                <!-- BEGIN Vendor JS-->
+
+                <!-- BEGIN: Page Vendor JS-->
+                <script src="app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/dataTables.bootstrap5.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/responsive.bootstrap5.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
+                <script src="app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
+                <script src="app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+                <!-- END: Page Vendor JS-->
+
+                <!-- BEGIN: Theme JS-->
+                <script src="app-assets/js/core/app-menu.js"></script>
+                <script src="app-assets/js/core/app.js"></script>
+                <!-- END: Theme JS-->
+
+                <!-- BEGIN: Page JS-->
+                <script src="app-assets/js/scripts/tables/table-datatables-basic.js"></script>
+                <!-- END: Page JS-->
+
+
+                <script>
+                    $(window).on('load', function () {
+                        if (feather) {
+                            feather.replace({
+                                width: 14,
+                                height: 14
+                            });
+                        }
+                    })
+
+                    // $('#basic-datatable').DataTable(
+                    //     {
+                    //         //pagination: false,
+                    //         retrieve: true,
+                    //         /*"bPaginate": false,*/
+                    //         language: {
+                    //             sEmptyTable: "هیچ داده‌ای در جدول وجود ندارد",
+                    //             sInfo: "نمایش START تا END از TOTAL ردیف",
+                    //             sInfoEmpty: "نمایش 0 تا 0 از 0 ردیف",
+                    //             sInfoFiltered: "(فیلتر شده از MAX ردیف)",
+                    //             sInfoPostFix: "",
+                    //             sInfoThousands: ",",
+                    //             sLengthMenu: "نمایش MENU ردیف",
+                    //             sLoadingRecords: "در حال بارگزاری...",
+                    //             sProcessing: "در حال پردازش...",
+                    //             sSearch: "جستجو:",
+                    //             sZeroRecords: "رکوردی با این مشخصات پیدا نشد",
+                    //             oPaginate: {
+                    //                 sFirst: "برگه‌ی نخست",
+                    //                 sLast: "برگه‌ی آخر",
+                    //                 sNext: "بعدی",
+                    //                 sPrevious: "قبلی"
+                    //             },
+                    //             oAria: {
+                    //                 sSortAscending: ": فعال سازی نمایش به صورت صعودی",
+                    //                 sSortDescending: ": فعال سازی نمایش به صورت نزولی"
+                    //             }
+                    //         }
+                    //     });
+
+
+                    // $('#basic-datatable').DataTable({
+                    //     paginate: false,
+                    // });
+
+                </script>
+</body>
+<!-- END: Body-->
+
+
+
+</html>
